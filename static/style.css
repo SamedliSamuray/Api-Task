@@ -1,0 +1,74 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.logo{
+    background-color:darkblue;
+    color:gold;
+    padding: 6px 10px;
+    border-radius: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+.logo i {
+    margin: 0px 1px;
+    transition: 2s transform;
+}
+.logo:hover i{
+    transform: rotateY(-360deg);
+}
+.logo:hover{
+    color: goldenrod;
+}
+.cards{
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    margin: 20px 50px;
+    width: 1000px;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.card{
+    padding: 2px;
+    width: 270px;
+    font-size: 11px;
+    height: 370px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    user-select: none;
+}
+.card:hover{
+    background-color: #ebebeb;
+}
+.username{
+    border-bottom: 1px solid black;
+}
+.card img {
+    height: 150px;
+    object-fit: cover;
+}
+.card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.card-body a{
+    width: 100px;
+}
+.card p{
+    height: 100px;
+    
+}
+
+.card-date{
+    font-size: 10px;
+    color: gray;
+}
